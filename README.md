@@ -8,6 +8,13 @@ This project implements a machine learning pipeline to predict flight departure 
 *   **Recall:** 0.543
 *   **PR-AUC:** 0.448
 
+## High-Level ML System Architecture
+<p align="left">
+  <a href="img/architecture_high-level.png">
+    <img src="img/architecture_high-level.png" width="900"/>
+  </a>
+</p>
+
 ## Data Engineering Pipeline
 The system utilizes a modular processing architecture to merge disparate datasets:
 
@@ -70,3 +77,4 @@ Run the following notebooks sequentially to reproduce the results:
 5. `04_exploratory_data_analysis.ipynb`
 6. `05_baseline_modeling_data.ipynb`
 7. `06_final_modeling_data.ipynb`
+
